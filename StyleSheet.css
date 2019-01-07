@@ -1,0 +1,11 @@
+body {
+	background:#a3c2c2;
+	column-count: 2;
+}
+ol,li{
+	list-style-type:circle;
+	  margin:0;
+  padding-left:50px;
+  display: flex;
+
+}
