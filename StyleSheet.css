@@ -9,3 +9,6 @@ ol,li{
   display: flex;
 
 }
+#parentDiv{
+text-orientation:upright;
+}
