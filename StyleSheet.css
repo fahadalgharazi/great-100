@@ -20,18 +20,15 @@ img {
 	margin-bottom: 8px;
 }
 
-figcaption#yams {
+
+figcaption {
+	color:purple;
+}
+
+figcaption:hover {
 	color: blue;
 }
 
-figcaption#yams {
-	color: purple;
-}
-
-figcaption#yams:hover {
-	color: red;
-}
-
 figure {
-	color: yellow;
+	color: #0008ff;
 }
