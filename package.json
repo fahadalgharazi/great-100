@@ -1,0 +1,23 @@
+{
+  "name": "great-100",
+  "version": "1.0.0",
+  "description": "A website about great islamic people from around the world.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fahadalgharazi/great-100.git"
+  },
+  "author": "Fahad Algharazi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fahadalgharazi/great-100/issues"
+  },
+  "homepage": "https://github.com/fahadalgharazi/great-100#readme",
+  "dependencies": {
+    "@angular/cli": "^7.3.1",
+    "npm": "^6.7.0"
+  }
+}
