@@ -7,6 +7,8 @@ import { HomeComponent } from './home/home.component';
 import { ArticleComponent } from './article/article.component';
 import { AboutComponent } from './about/about.component';
 import { MoreInfoComponent } from './more-info/more-info.component';
+import { CardComponent } from './card/card.component';
+import {MatCardModule} from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -14,11 +16,13 @@ import { MoreInfoComponent } from './more-info/more-info.component';
     HomeComponent,
     ArticleComponent,
     AboutComponent,
-    MoreInfoComponent
+    MoreInfoComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
