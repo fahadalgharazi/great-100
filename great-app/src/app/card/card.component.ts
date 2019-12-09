@@ -7,12 +7,7 @@ import { Component, OnInit,Input } from '@angular/core';
 })
 export class CardComponent implements OnInit {
 	@Input() name: string;
-<<<<<<< HEAD
-
 	@Input() picture: string;
-
-=======
->>>>>>> 6840a111c353f1c7819614881e6bee7c2a5f81e1
 	@Input() caption: string;
 	@Input() link: string;
   constructor() { }
