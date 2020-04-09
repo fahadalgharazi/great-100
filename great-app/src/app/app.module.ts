@@ -9,6 +9,8 @@ import { AboutComponent } from './about/about.component';
 import { MoreInfoComponent } from './more-info/more-info.component';
 import { CardComponent } from './card/card.component';
 import {MatCardModule} from '@angular/material/card';
+import { HeaderComponent } from './header/header.component';
+import { SlideshowComponent } from './slideshow/slideshow.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import {MatCardModule} from '@angular/material/card';
     ArticleComponent,
     AboutComponent,
     MoreInfoComponent,
-    CardComponent
+    CardComponent,
+    HeaderComponent,
+    SlideshowComponent
   ],
   imports: [
     BrowserModule,
